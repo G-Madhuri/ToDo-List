@@ -1,0 +1,124 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin-top: 50px;
+}
+
+/* Header */
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Form styling */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Task input fields */
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+/* Button styling */
+button {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Task list */
+ul.list-group {
+    margin-top: 20px;
+    padding: 0;
+}
+
+/* List items */
+.list-group-item {
+    font-size: 1.1rem;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for completed tasks */
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+/* Buttons inside list items */
+.list-group-item .btn {
+    margin-left: 10px;
+    font-size: 0.9rem;
+}
+
+.list-group-item .btn-sm {
+    padding: 5px 10px;
+}
+
+/* Task buttons hover effects */
+.btn-success:hover {
+    background-color: #28a745;
+}
+
+.btn-warning:hover {
+    background-color: #ffc107;
+}
+
+.btn-danger:hover {
+    background-color: #dc3545;
+}
+
+/* Filter section */
+.form-inline {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-inline select,
+.form-inline button {
+    font-size: 1rem;
+}
+
+.form-inline .form-control {
+    margin-bottom: 0;
+}
+
+/* Styling for select dropdown */
+#filter {
+    background-color: #f1f3f5;
+}
+
+/* Hover effects for filter buttons */
+.btn-info:hover {
+    background-color: #17a2b8;
+}
